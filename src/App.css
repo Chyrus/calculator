@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.calcButton {
+  padding: 20px;
+  margin: 0px;
+}
+
+.calcScreen {
+  width: 205px;
+  height: 40px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  /* display: inline-block; */
+}
+
+.calculator {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
