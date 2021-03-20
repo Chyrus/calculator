@@ -1,57 +1,34 @@
-.App {
-  text-align: center;
+button {
+  font-size: 20px;
+  width: 75px;
+  height: 75px;
+  margin: 0.5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.calcButton {
-  padding: 20px;
-  margin: 0px;
+p {
+  vertical-align: middle;
+  line-height: 24px
 }
 
 .calcScreen {
-  width: 205px;
-  height: 40px;
+  width: 291px;
+  height: 55px;
   background-color: lightgrey;
   border: 1px solid black;
-  /* display: inline-block; */
+  margin-left: 1px;
+  display: inline-block;
+  margin-top: 5px;
+  text-align: right;
+  font-size: 24px;
+  padding: 5px;
 }
 
 .calculator {
-  margin-left: auto;
-  margin-right: auto;
-  width: 6em
+  /* margin: auto; */
+  /* padding-top: 1px; */
+  display: inline-block;
+}
+
+.container {
+  text-align:center;
 }
